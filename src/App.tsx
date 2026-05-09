@@ -17,6 +17,7 @@ import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AuthRedirect from "./components/AuthRedirect";
 import AgentEditProperties from "./pages/AgentEditProperties";
+import LibroReclamaciones from "./pages/LibroReclamaciones";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +42,7 @@ const App = () => (
           <Route path="/oficinas" element={<Oficinas />} />
           <Route path="/asesores" element={<Asesores />} />
           <Route path="/contacto" element={<Index />} />
+          <Route path="/libro-reclamaciones" element={<LibroReclamaciones />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
