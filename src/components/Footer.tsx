@@ -51,7 +51,10 @@ const Footer = () => {
       { name: "Locales Comerciales", href: "/propiedades?type=comercial" },
       { name: "Locales Industriales", href: "/propiedades?type=industrial" },
     ],
-    empresa: [{ name: "Nosotros", href: "/#nosotros" }],
+    empresa: [
+      { name: "Nosotros", href: "/#nosotros" },
+      { name: "Libro de Reclamaciones", href: "/libro-reclamaciones" },
+    ],
     soporte: [
       { name: "Centro de Ayuda", href: "/ayuda" },
       { name: "Preguntas Frecuentes", href: "/faq" },
@@ -247,7 +250,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              © {currentYear} ZIMA Real Estate. Todos los derechos reservados.
+              © {currentYear} ZIMA Gestión Inmobiliaria. Todos los derechos reservados.
             </div>
 
             <div className="flex flex-wrap justify-center space-x-6 text-sm text-gray-400">
@@ -275,10 +278,16 @@ const Footer = () => {
               >
                 Centro de Ayuda
               </Link>
+              <Link
+                to="/libro-reclamaciones"
+                className="hover:text-primary transition-colors font-medium text-gray-300"
+              >
+                Libro de Reclamaciones
+              </Link>
             </div>
 
             <div className="text-sm text-gray-400">
-              Desarrollado con ❤️ para ZIMA Real Estate
+              Desarrollado con ❤️ para ZIMA Gestión Inmobiliaria
             </div>
           </div>
         </div>

@@ -47,26 +47,22 @@ const Header = () => {
     }
   };
 
-  // Determine button text and action based on route and user status
   const isOnProtectedRoute = isProtectedRoute(location.pathname);
 
   const getButtonContent = () => {
     if (isOnProtectedRoute) {
-      // On protected route: always show "Cerrar sesión"
       return {
         text: "Cerrar sesión",
         icon: <LogOut className="w-4 h-4 mr-1" />,
         action: handleLogoutClick,
       };
     } else if (user) {
-      // Not on protected route but user is logged in: show "Ver mis propiedades"
       return {
         text: "Ver mis propiedades",
         icon: <User className="w-4 h-4 mr-1" />,
         action: handleLoginClick,
       };
     } else {
-      // Not on protected route and no user: show "Ingresar"
       return {
         text: "Ingresar",
         icon: <LogIn className="w-4 h-4 mr-1" />,
@@ -79,15 +75,12 @@ const Header = () => {
 
   const handleRecentPropertiesClick = () => {
     if (location.pathname === "/") {
-      // Si estamos en el index, hacemos scroll
       const section = document.getElementById("ultimas-propiedades");
       if (section) {
         section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     } else {
-      // Si estamos en otra página, navegamos al index
       navigate("/");
-      // Esperamos un poco para que la página cargue y luego hacemos scroll
       setTimeout(() => {
         const section = document.getElementById("ultimas-propiedades");
         if (section) {
@@ -96,24 +89,14 @@ const Header = () => {
       }, 100);
     }
   };
+
   const navigation = [
-    {
-      name: "INICIO",
-      href: "/",
-    },
-    {
-      name: "BUSCAR PROPIEDADES",
-      href: "/propiedades",
-    },
-    {
-      name: "UBICACIÓN",
-      href: "/oficinas",
-    },
-    {
-      name: "ASESORES",
-      href: "/asesores",
-    },
+    { name: "INICIO", href: "/" },
+    { name: "BUSCAR PROPIEDADES", href: "/propiedades" },
+    { name: "UBICACIÓN", href: "/oficinas" },
+    { name: "ASESORES", href: "/asesores" },
   ];
+
   return (
     <>
       {/* Top Bar */}
@@ -149,7 +132,7 @@ const Header = () => {
             <Link to="/" className="flex items-center">
               <img
                 src={zimaLogo}
-                alt="ZIMA Real Estate - Bienes raíces en Lima, Perú"
+                alt="ZIMA Gestión Inmobiliaria - Bienes raíces en Lima, Perú"
                 className="h-12 w-auto"
               />
             </Link>
@@ -173,10 +156,7 @@ const Header = () => {
 
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center space-x-4">
-              <Button
-                onClick={handleRecentPropertiesClick}
-                className="btn-hero"
-              >
+              <Button onClick={handleRecentPropertiesClick} className="btn-hero">
                 PROPIEDADES RECIENTES
               </Button>
             </div>
@@ -186,11 +166,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="lg:hidden p-2 rounded-md text-gray-700 hover:text-primary"
             >
-              {isMenuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
+              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
 
@@ -214,10 +190,7 @@ const Header = () => {
                   <Button variant="outline" size="sm">
                     Franquicias
                   </Button>
-                  <Button
-                    onClick={handleRecentPropertiesClick}
-                    className="btn-hero"
-                  >
+                  <Button onClick={handleRecentPropertiesClick} className="btn-hero">
                     PROPIEDADES RECIENTES
                   </Button>
                 </div>
