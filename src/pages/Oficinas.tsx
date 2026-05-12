@@ -59,7 +59,7 @@ const Oficinas = () => {
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Contáctanos</h3>
                 <p className="text-muted-foreground">
-                  contacto@zimarealstate.com<br />
+                  contacto@zimagestioninmobiliaria.com<br />
                   <span className="text-sm">Respuesta en 24h</span>
                 </p>
               </CardContent>
@@ -87,7 +87,7 @@ const Oficinas = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Ubicación de ZIMA Real Estate"
+                    title="Ubicación de ZIMA Gestión Inmobiliaria"
                   />
                 </div>
               </CardContent>
