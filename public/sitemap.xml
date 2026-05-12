@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Buscar propiedades -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Asesores -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/asesores</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ubicación / Oficinas -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/oficinas</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Libro de Reclamaciones -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/libro-reclamaciones</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Filtros por tipo de propiedad -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?type=Casa</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?type=Departamento</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?type=Terreno</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?type=Oficina</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Filtros por tipo de negocio -->
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?transactionType=venta</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?transactionType=alquiler</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zimagestioninmobiliaria.com/propiedades?transactionType=anticresis</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
