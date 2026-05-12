@@ -2,7 +2,7 @@
 
 Plataforma inmobiliaria para el mercado peruano desarrollada con React + Supabase.
 
-## Tecnologías
+## Tecnologías.
 
 
 - Vite + React + TypeScript
