@@ -204,7 +204,7 @@ const Asesores = () => {
             </Button>
             <Button size="lg" variant="outline">
               <Mail className="w-5 h-5 mr-2" />
-              contacto@zimarealstate.com
+              contacto@zimagestioninmobiliaria.com
             </Button>
           </div>
         </div>
