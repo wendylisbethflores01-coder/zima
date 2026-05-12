@@ -68,25 +68,25 @@ const Footer = () => {
     {
       name: "Facebook",
       icon: Facebook,
-      href: "http://zimarealstate.com",
+      href: "https://www.zimagestioninmobiliaria.com",
       color: "hover:text-blue-600",
     },
     {
       name: "Instagram",
       icon: Instagram,
-      href: "http://zimarealstate.com",
+      href: "https://www.zimagestioninmobiliaria.com",
       color: "hover:text-pink-600",
     },
     {
       name: "YouTube",
       icon: Youtube,
-      href: "http://zimarealstate.com",
+      href: "https://www.zimagestioninmobiliaria.com",
       color: "hover:text-red-600",
     },
     {
       name: "Twitter",
       icon: Twitter,
-      href: "http://zimarealstate.com",
+      href: "https://www.zimagestioninmobiliaria.com",
       color: "hover:text-blue-400",
     },
   ];
@@ -96,7 +96,7 @@ const Footer = () => {
       city: "Oficina Principal",
       address: "Calle Porta 107, Miraflores, Lima 15064",
       phone: "Compra • Venta • Inversión",
-      email: "contacto@zimarealstate.com",
+      email: "contacto@zimagestioninmobiliaria.com",
     },
   ];
 
@@ -204,7 +204,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300">contacto@zimarealstate.com</p>
+                  <p className="text-gray-300">contacto@zimagestioninmobiliaria.com</p>
                   <p className="text-sm text-gray-400">Respuesta en 24h</p>
                 </div>
               </div>

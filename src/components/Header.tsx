@@ -109,7 +109,7 @@ const Header = () => {
             </span>
             <span className="flex items-center">
               <Mail className="w-4 h-4 mr-2" />
-              contacto@zimarealstate.com
+              contacto@zimagestioninmobiliaria.com
             </span>
           </div>
           <div className="flex items-center space-x-4">
