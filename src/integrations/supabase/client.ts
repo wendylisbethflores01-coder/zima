@@ -5,7 +5,7 @@ import type { Database } from "./types";
 // Use environment variables with fallback to hardcoded values for development
 const SUPABASE_URL =
   import.meta.env.VITE_SUPABASE_URL ||
-  "https://nuujznowhmawcvcskzcb.supabase.co";
+  "https://hgxmdjozakbwbwjmhypz.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY =
   import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY ||
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhneG1kam96YWtid2J3am1oeXB6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgyNzYxOTAsImV4cCI6MjA5Mzg1MjE5MH0.kYMiP4JcD6TZGtKGblWSRL9mC4Yc83onFY4HcHEZZO8";
