@@ -54,6 +54,7 @@ const Footer = () => {
     empresa: [
       { name: "Nosotros", href: "/#nosotros" },
       { name: "Libro de Reclamaciones", href: "/libro-reclamaciones" },
+      { name: "Administrar libro", href: "/reclamaciones-admin/login" },
     ],
     soporte: [
       { name: "Centro de Ayuda", href: "/ayuda" },
@@ -286,15 +287,8 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="text-sm text-gray-400 flex items-center gap-3">
+            <div className="text-sm text-gray-400">
               Desarrollado con ❤️ para ZIMA Gestión Inmobiliaria
-              <Link
-                to="/reclamaciones-admin/login"
-                className="text-gray-600 hover:text-gray-400 transition-colors text-xs"
-                title="Panel administrativo"
-              >
-                ·
-              </Link>
             </div>
           </div>
         </div>
