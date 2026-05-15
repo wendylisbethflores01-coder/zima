@@ -3,7 +3,24 @@
     {
       "source": "/(.*)",
       "destination": "https://www.zimagestioninmobiliaria.com/$1",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "zimarealstate.com"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.zimagestioninmobiliaria.com/$1",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "www.zimarealstate.com"
+        }
+      ]
     }
   ]
 }
