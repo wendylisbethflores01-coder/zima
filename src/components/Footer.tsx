@@ -286,8 +286,15 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="text-sm text-gray-400">
+            <div className="text-sm text-gray-400 flex items-center gap-3">
               Desarrollado con ❤️ para ZIMA Gestión Inmobiliaria
+              <Link
+                to="/reclamaciones-admin/login"
+                className="text-gray-600 hover:text-gray-400 transition-colors text-xs"
+                title="Panel administrativo"
+              >
+                ·
+              </Link>
             </div>
           </div>
         </div>
